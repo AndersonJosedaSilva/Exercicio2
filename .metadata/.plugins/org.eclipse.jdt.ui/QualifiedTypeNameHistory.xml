@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+<fullyQualifiedTypeName name="javax.ejb.Stateless"/>
+<fullyQualifiedTypeName name="javax.ejb.Local"/>
+<fullyQualifiedTypeName name="javax.ejb.Remote"/>
+<fullyQualifiedTypeName name="br.edu.univas.si8.ta.client.ejb.interfaces.ClientRemote"/>
+<fullyQualifiedTypeName name="br.edu.univas.si8.ta.client.ejb.interfaces.ClientLocal"/>
+<fullyQualifiedTypeName name="br.edu.univas.si8.ta.client.ejb.entities.Client"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="javax.ejb.EJB"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,25 @@
+package br.edu.univas.si8.ta.hello.rest.impl;
+
+import javax.ejb.EJB;
+import javax.enterprise.context.RequestScoped;
+
+import br.edu.univas.si8.ta.hello.ejb.interfaces.Client;
+import br.edu.univas.si8.ta.hello.rest.api.ClientService;
+
+@RequestScoped
+public class ClientServiceImpl implements ClientService{
+	@EJB(mappedName = "java:app/hello-rest-ejb-0.1-SNAPSHOT/ClientBean!br.edu.univas.si8.ta.hello.ejb.interfaces.ClientRemote")
+
+	@Override
+	public String[] listClientNames() {
+		return client.listClientNames();
+	}
+
+	@Override
+	public String saveNewClient(String name, String email) {
+		client.createNewClient(name, email);
+		return "{\"message\": \"Success\"}";
+	}
+
+
+}
